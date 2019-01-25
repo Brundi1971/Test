@@ -1,0 +1,11 @@
+git remote add origin [adresa web a depozitului remote] -- seteaza depozitul extern 
+[exemplu $ git remote add origin https://github.com/Brundi1971/Test.git]
+git remote rm origin [adresa web a depozitului remote] -- reseteaza depozitul extern
+
+git init -- initializarea folderului de lucru pe calculatorul local
+
+git remote -v  -- afisarea depozitului remote
+
+git add . -- adauga toate fisierele in depozitul extern
+git commit -m "comentariu" -- indeplineste comanda
+git push origin master -- executa comanda de catre depozit 
