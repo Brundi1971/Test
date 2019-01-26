@@ -23,3 +23,15 @@ git merge origin origin/master
 rm .git/index.lock                                    :reseteaza procesul in curs
 
 git status
+
+…or create a new repository on the command line
+echo "# VSCode" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/Brundi1971/VSCode.git
+git push -u origin master
+
+…or push an existing repository from the command line
+git remote add origin https://github.com/Brundi1971/VSCode.git
+git push -u origin master
