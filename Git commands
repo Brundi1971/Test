@@ -17,3 +17,5 @@ git config --list
 git pull origin master --allow-unrelated-histories
 
 git log
+
+git merge origin origin/master
