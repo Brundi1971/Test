@@ -15,3 +15,5 @@ git pull origin master -- transfera documentele din depozit pe statia locala
 git config --list 
 
 git pull origin master --allow-unrelated-histories
+
+git log
