@@ -8,4 +8,6 @@ git remote -v  -- afisarea depozitului remote
 
 git add . -- adauga toate fisierele in depozitul extern
 git commit -m "comentariu" -- indeplineste comanda
-git push origin master -- executa comanda de catre depozit 
+git push origin master -- transfera documentele de pe statia locala in depozit
+
+git pull origin master -- transfera documentele din depozit pe statia locala
