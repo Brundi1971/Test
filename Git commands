@@ -1,21 +1,23 @@
-git remote add origin [adresa web a depozitului remote] -- seteaza depozitul extern 
+git remote add origin [adresa web a depozitului remote]                     :seteaza depozitul extern 
 [exemplu $ git remote add origin https://github.com/Brundi1971/Test.git]
-git remote rm origin [adresa web a depozitului remote] -- reseteaza depozitul extern
+git remote rm origin [adresa web a depozitului remote]                      :reseteaza depozitul extern
 
-git init -- initializarea folderului de lucru pe calculatorul local
+git init                                              :initializarea folderului de lucru pe calculatorul local
 
-git remote -v  -- afisarea depozitului remote
+git remote -v                                         :afisarea URL-ul depozitului remote
 
-git add . -- adauga toate fisierele in depozitul extern
-git commit -m "comentariu" -- indeplineste comanda
-git push origin master -- transfera documentele de pe statia locala in depozit
+git add .                                             :adauga toate fisierele in depozitul extern
+git commit -m "comentariu"                            :indeplineste comanda
+git push origin master                                :transfera documentele de pe statia locala in depozit
 
-git pull origin master -- transfera documentele din depozit pe statia locala
+git pull origin master                                :transfera documentele din depozit pe statia locala
 
-git config --list 
+git config --list                                     :afiseaza configuratia curenta 
 
-git pull origin master --allow-unrelated-histories
+git pull origin master --allow-unrelated-histories    :transmite fisierele de la master pe calculatorul local
 
-git log
+git log                                               :afiseaza logurile realizate
 
 git merge origin origin/master
+
+rm .git/index.lock                                    :reseteaza procesul in curs
